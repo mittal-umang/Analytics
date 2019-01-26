@@ -6,6 +6,7 @@
 # Write a program to display the population for each of the next five years. Assume the current
 # population is 312032486 and one year has 365 days.
 
+
 def __calculate__():
     currentPopulation = 312032486
     newSeconds = 365 * 24 * 60 * 60
