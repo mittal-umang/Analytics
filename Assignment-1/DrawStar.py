@@ -4,7 +4,7 @@
 
 import turtle
 
-def _draw_turtle_():
+def __drawTurtle__():
 
     for i in range(5):
         turtle.forward(100)
@@ -13,4 +13,4 @@ def _draw_turtle_():
     turtle.done()
 
 
-_draw_turtle_()
+__drawTurtle__()
