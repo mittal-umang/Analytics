@@ -20,7 +20,7 @@ def __rockPaperScissor__(number):
     return valueSet.get(number, "Invalid Number")
 
 
-# funtion returns 1 for user and 0 for computer
+# function returns 1 for user and 0 for computer
 # inputs num1 = input of user, num0 is input of computer
 def __decider__(num1, num0):
     if num1 == 0 and num0 == 1:
