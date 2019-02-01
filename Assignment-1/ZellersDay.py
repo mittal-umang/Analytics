@@ -41,7 +41,7 @@ def __main__():
     if day > 31:
         print("Entered day is invalid. Exiting...")
         return None
-    elif year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+    elif (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
         if month == 2 and day > 29:
             print("Entered day cannot be evaluate since year is a leap year and the days is not in February")
             print("Exiting....")
