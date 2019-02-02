@@ -29,4 +29,6 @@ def main():
         i += 1
     turtle.done()
 
-main()
+
+if __name__ == "__main__":
+    main()

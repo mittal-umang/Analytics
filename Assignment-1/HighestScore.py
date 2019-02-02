@@ -30,4 +30,5 @@ def main():
     print("The highest score is ", list[0], "and second highest score is", list[1])
 
 
-main()
+if __name__ == "__main__":
+    main()

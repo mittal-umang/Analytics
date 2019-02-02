@@ -33,4 +33,5 @@ def main():
     print("Net Pay: $", '%.2f' % netPay, sep="")
 
 
-main()
+if __name__ == "__main__":
+    main()

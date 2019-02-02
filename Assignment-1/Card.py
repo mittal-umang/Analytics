@@ -32,4 +32,5 @@ def main():
     print("The card you picked is the ", cardNumber, " of ", __suite__(suiteNumber))
 
 
-main()
+if __name__ == "__main__":
+    main()

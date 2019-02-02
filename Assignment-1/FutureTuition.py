@@ -26,4 +26,5 @@ def main():
     print("Tuition after 14 years from now : ", tuitionYear14)
 
 
-main()
+if __name__ == "__main__":
+    main()

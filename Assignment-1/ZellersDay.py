@@ -52,4 +52,5 @@ def main():
     print("Day of the week is", __zeller__(year, month, day))
 
 
-main()
+if __name__ == "__main__":
+    main()

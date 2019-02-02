@@ -17,4 +17,5 @@ def _calculateGratuity_(gratuity, subTotal):
     return gratuityAmount, total
 
 
-main()
+if __name__ == "__main__":
+    main()

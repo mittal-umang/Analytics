@@ -19,4 +19,5 @@ def _sum_(number):
     return sumofDigits
 
 
-main()
+if __name__ == "__main__":
+    main()

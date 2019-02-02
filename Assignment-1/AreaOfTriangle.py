@@ -24,7 +24,8 @@ def main():
     side2 = __calculateside__(x2, y2, x3, y3)
     side3 = __calculateside__(x1, y1, x3, y3)
     area = __area__(side1, side2, side3)
-    print("The area of the triangle is", '%.1f' % area,"sq. units")
+    print("The area of the triangle is", '%.1f' % area, "sq. units")
 
 
-main()
+if __name__ == "__main__":
+    main()
