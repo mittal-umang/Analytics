@@ -23,9 +23,9 @@ def __draw__(x, y, height, width):
     turtle.done()
 
 
-def __main__():
+def main():
     x, y, width, height = eval(input("enter the center of a rectangle, width, and height : "))
     __draw__(x, y, height, width)
 
 
-__main__()
+main()

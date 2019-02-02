@@ -6,7 +6,7 @@
 # ## this code can work for any number of digits. limiting the values through user input as asked in question.
 
 
-def __main__():
+def main():
     number = eval(input("Enter a number between 0 and 1000 : "))
     print("The sum of digits is", _sum_(number))
 
@@ -19,4 +19,4 @@ def _sum_(number):
     return sumofDigits
 
 
-__main__()
+main()

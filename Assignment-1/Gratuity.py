@@ -5,7 +5,7 @@
 # as the gratuity and 11.5 as the total.
 
 
-def __main__():
+def main():
     subTotal, gratuity = eval(input("Enter sub-total and gratuity : "))
     gratuityAmount, total = _calculateGratuity_(gratuity, subTotal)
     print("The gratuity is", '%.2f' % gratuityAmount, "and the total is", '%.2f' % total)
@@ -17,4 +17,4 @@ def _calculateGratuity_(gratuity, subTotal):
     return gratuityAmount, total
 
 
-__main__()
+main()

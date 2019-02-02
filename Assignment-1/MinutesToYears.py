@@ -4,7 +4,7 @@
 # the minutes. For simplicity, assume a year has 365 days.
 
 
-def __main__():
+def main():
     minutes = eval(input("Enter the number of minutes : "))
     days, years = _calculate_(minutes)
     print(minutes, "minutes is approximately", years, "years and", days, "days.")
@@ -16,4 +16,4 @@ def _calculate_(minutes):
     return int(days), int(years)
 
 
-__main__()
+main()
