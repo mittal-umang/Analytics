@@ -18,7 +18,7 @@ def __draw__(radius, edges, distance):
         i += 1
 
 
-def __main__():
+def main():
     i = 3
     distance = 0
     while i < 9:
@@ -29,4 +29,4 @@ def __main__():
         i += 1
     turtle.done()
 
-__main__()
+main()

@@ -39,7 +39,7 @@ def __decider__(num1, num0):
         pass
 
 
-def __main__():
+def main():
     cWins = 0
     uWins = 0
     while cWins < 2 and uWins < 2:
@@ -68,4 +68,4 @@ def __main__():
         pass
 
 
-__main__()
+main()

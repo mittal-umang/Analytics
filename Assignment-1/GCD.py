@@ -2,7 +2,7 @@
 # Compute the greatest common divisor
 
 
-def __main__():
+def main():
     num1, num2 = eval(input("Enter two number with comma : "))
     if num1 > num2:
         d = num2
@@ -17,4 +17,4 @@ def __main__():
     print("The Greatest Common Divisor of ", num1, "and", num2, "is", d)
 
 
-__main__()
+main()

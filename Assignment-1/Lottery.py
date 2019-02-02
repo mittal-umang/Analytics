@@ -38,9 +38,9 @@ def __evaluate__(number):
         return 0
 
 
-def __main__():
+def main():
     userNumber = eval(input("Enter your 3 digit number:"))
     print("You have won $", __evaluate__(userNumber))
 
 
-__main__()
+main()

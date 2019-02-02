@@ -9,7 +9,7 @@ def __increment__(number):
     return number + number * 0.05
 
 
-def __main__():
+def main():
     currentTuition = eval(input("Enter Current Tuition: "))
     year = 1
     while year < 15:
@@ -26,4 +26,4 @@ def __main__():
     print("Tuition after 14 years from now : ", tuitionYear14)
 
 
-__main__()
+main()

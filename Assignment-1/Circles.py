@@ -21,11 +21,11 @@ def __circle_status__(dist, r1, r2):
         return "Circles Overlap"
 
 
-def __main__():
+def main():
     x1, y1, r1 = eval(input("Enter circle1's center x,y coordinates and radius:"))
     x2, y2, r2 = eval(input("Enter circle2's center x,y coordinates and radius:"))
     dist = __distance__(x1, y1, x2, y2)
     print(__circle_status__(dist, r1, r2))
 
 
-__main__()
+main()

@@ -18,7 +18,7 @@ def bubble_sort(alist):
         passnum = passnum - 1
 
 
-def __main__():
+def main():
     noOfStudents = eval(input("Enter the number of students: "))
     i = 1
     list = []
@@ -30,4 +30,4 @@ def __main__():
     print("The highest score is ", list[0], "and second highest score is", list[1])
 
 
-__main__()
+main()

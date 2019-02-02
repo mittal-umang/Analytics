@@ -31,7 +31,7 @@ def __zeller__(year, month, day):
     return __day__(h)
 
 
-def __main__():
+def main():
     year = eval(input("Enter year (e.g : 2008):"))
     month = eval(input("Enter Month (1-12):"))
     if month > 12:
@@ -52,4 +52,4 @@ def __main__():
     print("Day of the week is", __zeller__(year, month, day))
 
 
-__main__()
+main()

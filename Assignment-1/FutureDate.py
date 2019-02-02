@@ -19,10 +19,10 @@ def __day__(daynumber):
     return week.get(daynumber, "Invalid Day")
 
 
-def __main__():
+def main():
     today = eval(input("Enter today's day:"))
     numberOfDays = eval(input("Enter the number of days elapsed since today:"))
     print("Today is", __day__(today), "and the future day is ", __day__((today + numberOfDays) % 7))
 
 
-__main__()
+main()

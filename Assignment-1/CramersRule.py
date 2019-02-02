@@ -17,7 +17,7 @@ def __cramerRule__(a, b, c, d, e, f):
         return x, y
 
 
-def __main__():
+def main():
     a, b, c, d, e, f = eval(input("Enter a, b, c, d, e, f: "))
     x, y = __cramerRule__(a, b, c, d, e, f)
     if x is None and y is None:
@@ -26,4 +26,4 @@ def __main__():
         print("x is ", x, "and y is", y)
 
 
-__main__()
+main()

@@ -2,7 +2,7 @@
 # Sum a series
 
 
-def __main__():
+def main():
     lastNumber = eval(input("Enter the last number of the series"))
     if lastNumber % 2 == 0:
         lastNumber -= 1
@@ -15,4 +15,4 @@ def __main__():
     print("Sum of the series is", sum)
 
 
-__main__()
+main()

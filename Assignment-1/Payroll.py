@@ -12,7 +12,7 @@ def __calculations__(hours, hourlypay, federalrate, staterate):
     return hours * hourlypay, hours * hourlypay * federalrate, hours * hourlypay * staterate
 
 
-def __main__():
+def main():
     name = input("Enter employee's name: ")
     hours = eval(input("Enter number of hours worked in a week: "))
     hourlyRate = float(input("Enter hourly pay rate: "))
@@ -33,4 +33,4 @@ def __main__():
     print("Net Pay: $", '%.2f' % netPay, sep="")
 
 
-__main__()
+main()

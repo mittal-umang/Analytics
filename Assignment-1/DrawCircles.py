@@ -31,7 +31,7 @@ def __draw_circle__(x, y, r):
     turtle.circle(r)
 
 
-def __main__():
+def main():
     x1, y1, r1 = eval(input("Enter circle1's center x,y coordinates and radius:"))
     x2, y2, r2 = eval(input("Enter circle2's center x,y coordinates and radius:"))
     __draw_circle__(x1, y1, r1)
@@ -44,4 +44,4 @@ def __main__():
     turtle.done()
 
 
-__main__()
+main()

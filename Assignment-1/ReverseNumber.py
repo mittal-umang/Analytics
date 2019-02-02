@@ -11,10 +11,10 @@ def __reverse__(number):
     return reverseNumber
 
 
-def __main__():
+def main():
     number = eval(input("Enter an integer: "))
     reversedNumber = __reverse__(number)
     print("The reversed number is", reversedNumber)
 
 
-__main__()
+main()

@@ -16,7 +16,7 @@ def __suite__(suiteNumber):
     return suites.get(suiteNumber, "Invalid Suite")
 
 
-def __main__():
+def main():
     cardNumber = random.randint(1, 13)
     suiteNumber = random.randint(1, 3)
     if cardNumber == 1:
@@ -32,4 +32,4 @@ def __main__():
     print("The card you picked is the ", cardNumber, " of ", __suite__(suiteNumber))
 
 
-__main__()
+main()
