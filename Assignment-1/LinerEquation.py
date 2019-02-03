@@ -29,7 +29,7 @@ class LinerEquation:
         if self.getA() * self.getD() - self.getB() * self.getC() != 0:
             return True
         else:
-            False
+            return False
 
     def getX(self):
         return (self.getE() * self.getD() - self.getB() * self.getF()) / \
