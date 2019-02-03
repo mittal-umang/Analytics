@@ -28,4 +28,5 @@ def main():
     __draw__(x, y, height, width)
 
 
-main()
+if __name__ == "__main__":
+    main()

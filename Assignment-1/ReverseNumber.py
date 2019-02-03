@@ -17,4 +17,6 @@ def main():
     print("The reversed number is", reversedNumber)
 
 
-main()
+if __name__ == "__main__":
+    main()
+

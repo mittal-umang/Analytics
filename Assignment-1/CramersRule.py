@@ -26,4 +26,5 @@ def main():
         print("x is ", x, "and y is", y)
 
 
-main()
+if __name__ == "__main__":
+    main()

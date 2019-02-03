@@ -16,4 +16,5 @@ def _calculate_(minutes):
     return int(days), int(years)
 
 
-main()
+if __name__ == "__main__":
+    main()

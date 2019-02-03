@@ -28,4 +28,5 @@ def main():
     print(__circle_status__(dist, r1, r2))
 
 
-main()
+if __name__ == "__main__":
+    main()

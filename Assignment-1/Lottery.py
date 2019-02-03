@@ -43,4 +43,5 @@ def main():
     print("You have won $", __evaluate__(userNumber))
 
 
-main()
+if __name__ == "__main__":
+    main()

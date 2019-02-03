@@ -17,4 +17,5 @@ def main():
     print("The Greatest Common Divisor of ", num1, "and", num2, "is", d)
 
 
-main()
+if __name__ == "__main__":
+    main()

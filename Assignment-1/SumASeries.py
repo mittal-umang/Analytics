@@ -15,4 +15,5 @@ def main():
     print("Sum of the series is", sum)
 
 
-main()
+if __name__ == "__main__":
+    main()

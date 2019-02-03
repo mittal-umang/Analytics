@@ -25,4 +25,6 @@ def main():
     print("Today is", __day__(today), "and the future day is ", __day__((today + numberOfDays) % 7))
 
 
-main()
+if __name__ == "__main__":
+    main()
+
