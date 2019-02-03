@@ -6,27 +6,28 @@
 import turtle
 
 
-def __draw__(radius, edges, distance):
+def __drawShape__(x, angle, edge):
     turtle.penup()
-    turtle.goto(distance, 0)
+    turtle.goto(x, 0)
     turtle.pendown()
-    i = 0
-    print(((edges - 2) * 180) / edges)
-    while i < edges:
-        turtle.forward(radius)
-        turtle.left(((edges - 2) * 180) / edges)
-        i += 1
+    while edge > 0:
+        turtle.forward(50)
+        turtle.left(angle)
+        edge -= 1
 
 
 def main():
-    i = 3
-    distance = 0
-    while i < 9:
-        if i != 7:
-            print(i)
-            __draw__(30, i, distance)
-            distance += 70
-        i += 1
+    edge = 3
+    distance = -300
+    while edge < 9:
+        angle = 180 - (edge - 2) * 180 / edge
+        if edge != 7:
+            __drawShape__(distance, angle, edge)
+        else:
+            pass
+        distance += 100
+        edge += 1
+
     turtle.done()
 
 

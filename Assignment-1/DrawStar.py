@@ -6,7 +6,6 @@ import turtle
 
 
 def __drawTurtle__():
-
     for i in range(5):
         turtle.forward(100)
         turtle.left(180)
@@ -14,4 +13,5 @@ def __drawTurtle__():
     turtle.done()
 
 
-__drawTurtle__()
+if __name__ == "__main__":
+    __drawTurtle__()

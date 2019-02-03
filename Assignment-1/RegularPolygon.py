@@ -2,9 +2,9 @@ import math
 
 
 class RegularPolygon:
-    def __init__(self, n=3, sides=1, x=0, y=0):
-        self.__numberOfSide = n
-        self.__length = sides
+    def __init__(self, numberOfSide=3, length=1, x=0, y=0):
+        self.__numberOfSide = numberOfSide
+        self.__length = length
         self.__x = x
         self.__y = y
 
