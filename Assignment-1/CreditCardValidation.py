@@ -66,11 +66,9 @@ def prefixMatched(number):
 
 
 def isValid(number):
-    if 12 < getSize(number) < 17 and prefixMatched(number):
-        if (sumOfOddPlace(number) + sumOfDoubleEvenPlace(number)) % 10 == 0:
-            return "Card is Valid"
-        else:
-            return "Card is Invalid"
+    if 12 < getSize(number) < 17 and prefixMatched(number) and (
+            sumOfOddPlace(number) + sumOfDoubleEvenPlace(number)) % 10 == 0:
+        return "Card is Valid"
     else:
         return "Card is Invalid"
 
