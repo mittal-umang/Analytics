@@ -1,3 +1,7 @@
+# Chapter 5 Question 19
+# Write a program that prompts the user to enter an integer
+# from 1 to 15 and displays a pyramid
+
 def main():
     level = eval(input("Enter the level of the triangle "))
     __Pattern__(level)
