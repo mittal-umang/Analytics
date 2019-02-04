@@ -1,2 +1,2 @@
 # DataProgramming
-Commited whole Project
+Commiting All assignments with environment
