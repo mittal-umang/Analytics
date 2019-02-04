@@ -1,3 +1,4 @@
+# Chapter 7 Question 7
 class LinerEquation:
     def __init__(self, a=1, b=1, c=1, d=1, e=1, f=1):
         self.__a = a

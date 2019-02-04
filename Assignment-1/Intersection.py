@@ -1,3 +1,9 @@
+# Chapter 7 Question 9
+# Suppose two line segments intersect. The two endpoints
+# for the first line segment are (x1, y1) and (x2, y2) and for the second line segment
+# are (x3, y3) and (x4, y4). Write a program that prompts the user to enter these
+# four endpoints and displays the intersecting point.
+
 from LinerEquation import LinerEquation
 
 
