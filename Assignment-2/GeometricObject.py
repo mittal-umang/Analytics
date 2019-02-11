@@ -10,7 +10,7 @@ class GeometricObject:
         self.__color = color
 
     def isFilled(self):
-        return self.__filled
+        return str(self.__filled)
 
     def setFilled(self, filled):
         self.__filled = filled

@@ -1,13 +1,19 @@
 # Chapter 12 Question 1
 from GeometricObject import GeometricObject
+from TriangleError import TriangleError
 
 
 class Triangle(GeometricObject):
     def __init__(self, color, isFilled, side1=1.0, side2=1.0, side3=1.0):
         super().__init__(color, isFilled)
-        self.__side1 = int(side1)
-        self.__side2 = int(side2)
-        self.__side3 = int(side3)
+        if not (abs(int(side2) - int(side3)) < int(side1) < int(side2) + int(side3) and abs(
+                int(side1) - int(side3)) < int(side2) < int(side1) + int(side3) and abs(
+            int(side1) - int(side2)) < int(side3) < int(side1) + int(side2)):
+            raise TriangleError(side1, side2, side3)
+        else:
+            self.__side1 = int(side1)
+            self.__side2 = int(side2)
+            self.__side3 = int(side3)
 
     def getSide1(self):
         return self.__side1
@@ -32,11 +38,14 @@ class Triangle(GeometricObject):
 
 def main():
     side1, side2, side3, color, isFilled = input("Enter Sides of triangle,its color and 1 or 0 for filled:").split(",")
-    triangle = Triangle(color, bool(isFilled), side1, side2, side3)
-    print("Area of triangle", triangle.getArea())
-    print("Perimeter of triangle", triangle.getPerimeter())
-    print("Color of triangle", triangle.getColor())
-    print("Triangle is filled", triangle.isFilled())
+    try:
+        triangle = Triangle(color, bool(isFilled), side1, side2, side3)
+        print("Area of triangle", triangle.getArea())
+        print("Perimeter of triangle", triangle.getPerimeter())
+        print("Color of triangle", triangle.getColor())
+        print("Triangle is filled", triangle.isFilled())
+    except TriangleError:
+        print("Given Sides cannot create a Triangle")
 
 
 if __name__ == "__main__":
