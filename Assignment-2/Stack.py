@@ -29,5 +29,5 @@ def main():
         print(stack.pop(), end="\t")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

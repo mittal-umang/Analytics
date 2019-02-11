@@ -29,5 +29,5 @@ def main():
     print("The Average is:", sum(scores) / len(scores))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

@@ -24,5 +24,5 @@ def countLetters(s):
     return counts
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
