@@ -2,6 +2,7 @@
 # Write a recursive function to print all the permutations of a
 # string.
 
+
 def displayPermuation(s):
     return displayPermuationHelper(" ", list(s))
 
